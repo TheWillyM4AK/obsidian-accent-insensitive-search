@@ -1,0 +1,10 @@
+{
+  "id": "busqueda-sin-tildes",
+  "name": "Spanish Accent Search",
+  "version": "0.1.1",
+  "minAppVersion": "1.14.4",
+  "description": "Find notes without vowel accents in Quick switcher and link suggestions. Preserve original spelling and the Spanish letter enye.",
+  "author": "TheWillyM4AK",
+  "authorUrl": "https://github.com/TheWillyM4AK",
+  "isDesktopOnly": false
+}
