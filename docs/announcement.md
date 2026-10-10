@@ -4,32 +4,20 @@ Not posted. Choose the language below when sharing it. / Sin publicar. Elige el 
 
 ## English
 
-**Spanish Accent Search: find accented note names with Ctrl+O and `[[`**
+**Spanish Accent Search: find your notes without typing accents**
 
-I made a small Obsidian plugin for a problem I kept running into while writing in Spanish: finding an accented note name without typing its accents.
+For years, having to type accents to find my notes in Obsidian was a nuisance. I had seen several forum threads about the same problem, so I finally created **Spanish Accent Search** with the help of AI to solve it and share it with the community.
 
-With **Spanish Accent Search**, `alvaro gomez` finds **Álvaro Gómez** in the native Quick switcher and `[[` suggestions. Selecting the note inserts `[[Álvaro Gómez]]`, preserving its spelling. `pinguino` also finds **Pingüino**, while **`n` and `ñ` remain different letters**.
+Type `alvaro gomez` to find **Álvaro Gómez** in Ctrl+O / Cmd+O and `[[`, preserving the original spelling. Designed for Spanish, it keeps **`n` and `ñ` distinct**.
 
-There are no settings or network requests, and it does not rename files or edit notes. It may also help with other languages that use diacritics. It uses internal Obsidian methods, so compatibility may need attention after Obsidian updates.
-
-Version **0.1.1** is available for BRAT or manual installation. **It is not yet listed in the community catalog.** It has been checked on desktop with Obsidian 1.14.4; practical mobile testing is pending.
-
-[Repository and English/Spanish instructions](https://github.com/TheWillyM4AK/obsidian-busqueda-sin-tildes) · [Release 0.1.1](https://github.com/TheWillyM4AK/obsidian-busqueda-sin-tildes/releases/tag/0.1.1)
-
-Feedback and reproducible examples in English or Spanish are welcome, including from other languages.
+[GitHub — English/Spanish instructions](https://github.com/TheWillyM4AK/obsidian-busqueda-sin-tildes). Available through BRAT or manual installation; not yet in the community catalog. Mobile testing pending.
 
 ## Español
 
-**Spanish Accent Search: encuentra tus notas con Ctrl+O y `[[` sin escribir las tildes**
+**Spanish Accent Search: encuentra tus notas sin escribir las tildes**
 
-He creado un pequeño plugin de Obsidian para un problema que me encontraba al escribir en español: buscar una nota con tildes sin tener que escribirlas.
+Llevaba años con este problema en Obsidian: tener que escribir las tildes para encontrar mis notas resultaba incómodo. Había visto varios hilos en el foro sobre lo mismo, así que finalmente creé **Spanish Accent Search** con ayuda de IA para solucionarlo y compartirlo con la comunidad.
 
-Con **Spanish Accent Search**, `alvaro gomez` encuentra **Álvaro Gómez** en el selector rápido nativo y las sugerencias de `[[`. Al seleccionarla, se inserta `[[Álvaro Gómez]]`, conservando su escritura. `pinguino` también encuentra **Pingüino**, mientras que **`n` y `ñ` siguen siendo letras distintas**.
+Escribe `alvaro gomez` para encontrar **Álvaro Gómez** en Ctrl+O / Cmd+O y `[[`, conservando la escritura original. Está pensado para el español y mantiene **`n` y `ñ` distintas**.
 
-No necesita ajustes ni realiza conexiones de red, y no renombra archivos ni edita notas. También puede ser útil en otros idiomas con marcas diacríticas. Utiliza métodos internos de Obsidian, por lo que su compatibilidad puede necesitar revisión después de una actualización.
-
-La versión **0.1.1** está disponible mediante BRAT o instalación manual. **Todavía no está incluida en el catálogo de la comunidad.** Se ha comprobado en escritorio con Obsidian 1.14.4; la prueba práctica en móvil está pendiente.
-
-[Repositorio e instrucciones en español e inglés](https://github.com/TheWillyM4AK/obsidian-busqueda-sin-tildes) · [Versión 0.1.1](https://github.com/TheWillyM4AK/obsidian-busqueda-sin-tildes/releases/tag/0.1.1)
-
-Son bienvenidos los comentarios y los ejemplos reproducibles en español o inglés, también de otros idiomas.
+[GitHub — instrucciones en español e inglés](https://github.com/TheWillyM4AK/obsidian-busqueda-sin-tildes). Disponible mediante BRAT o instalación manual; todavía no está en el catálogo de la comunidad. Prueba en móvil pendiente.

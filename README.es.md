@@ -4,6 +4,8 @@ Español · [English](README.md)
 
 Encuentra **Álvaro Gómez** escribiendo `alvaro gomez` en el **selector rápido nativo de Obsidian (Ctrl+O / Cmd+O)** o en las **sugerencias de enlaces `[[`**. Conserva la escritura correcta en tus notas y enlaces.
 
+Llevaba años encontrándome con este problema: tener que escribir las tildes para encontrar mis notas resultaba incómodo. Había visto varios hilos en el foro de Obsidian con personas a las que les pasaba lo mismo, así que finalmente decidí crear este plugin con ayuda de IA para solucionarlo y compartirlo con la comunidad.
+
 Pensado para el español: las tildes de las vocales y la diéresis no dificultan la búsqueda, mientras que **`ñ` sigue siendo una letra distinta de `n`**. También puede resultar útil en otros idiomas que usan marcas diacríticas combinantes; no es una herramienta general de transliteración.
 
 | Escribes | Encuentras |

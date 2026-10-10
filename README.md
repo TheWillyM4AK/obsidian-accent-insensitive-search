@@ -4,6 +4,8 @@
 
 Find **Álvaro Gómez** by typing `alvaro gomez` in Obsidian's native **Quick switcher (Ctrl+O / Cmd+O)** or **`[[` link suggestions**. Keep the correct spelling in your notes and links.
 
+For years, having to type accents just to find my notes was an annoying part of using Obsidian. I had seen several forum threads from people with the same problem, so I finally decided to create this plugin with the help of AI to solve it and share it with the community.
+
 Designed with Spanish in mind: vowel accents and the diaeresis do not get in the way, while **`ñ` stays a separate letter from `n`**. It can also help with other languages that use combining diacritics; it is not a general transliteration tool.
 
 | Type | Find |
