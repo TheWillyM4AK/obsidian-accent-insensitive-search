@@ -1,12 +1,12 @@
-# Obsidian Forum announcement draft
+# Obsidian Forum announcement
 
-Status: **drafts prepared in forum, not published**. Updated: 2026-10-10. Once the announcement is published, its URL will be added to the reply as required by the category rules.
+Status: **published**. Published: 2026-10-10. [Announcement](https://forum.obsidian.md/t/accent-insensitive-search-ignore-accents-in-quick-switcher-and-links/119290) · [Reply](https://forum.obsidian.md/t/ignore-accents-diacritics-on-quick-switcher-and-internal-links/83304/5).
 
-## Suggested placement
+## Placement
 
-Create one announcement in [Share & showcase → Plugins](https://forum.obsidian.md/c/share-showcase/plugins/22). Suggested tags, if available: `plugin-release`, `quick-switcher`, `internal-links`.
+The announcement was published in [Share & showcase → Plugins](https://forum.obsidian.md/c/share-showcase/plugins/22).
 
-Then add the short, contextual reply below to [Ignore Accents/Diacritics on Quick Switcher and Internal Links](https://forum.obsidian.md/t/ignore-accents-diacritics-on-quick-switcher-and-internal-links/83304), where TheWillyM4AK shared the alias workaround on June 27, 2024. Once the announcement exists, the reply can also link to it.
+The short, contextual reply below was published in [Ignore Accents/Diacritics on Quick Switcher and Internal Links](https://forum.obsidian.md/t/ignore-accents-diacritics-on-quick-switcher-and-internal-links/83304/5), where TheWillyM4AK shared the alias workaround on June 27, 2024. It links to the announcement as required by the category rules.
 
 The [broader request from 2020](https://forum.obsidian.md/t/ignore-accents-diacritics-in-link-suggestion-quick-switcher-find-in-file-and-global-search/1655) is relevant background, but also covers global content search, which this plugin does not change. Avoid duplicating the announcement across threads.
 
@@ -46,3 +46,5 @@ Back in 2024, I mentioned adding unaccented aliases as a workaround here. I fina
 It ignores accents and diaereses, preserves original spelling, and keeps Spanish `ñ` distinct from `n`. Global content search is unchanged.
 
 [Plugin and installation](https://community.obsidian.md/plugins/busqueda-sin-tildes)
+
+[More details in the announcement](https://forum.obsidian.md/t/accent-insensitive-search-ignore-accents-in-quick-switcher-and-links/119290)
