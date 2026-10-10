@@ -1,6 +1,12 @@
 # Community directory submission / Envío al catálogo
 
-Status / Estado: **not yet listed / todavía no incluido**. Updated / Actualizado: 2026-10-10.
+Status / Estado: **published / publicado** on / el **2026-10-10**.
+
+[Official listing / Ficha oficial](https://community.obsidian.md/plugins/busqueda-sin-tildes) — **Add to Obsidian** available / disponible.
+
+Version **0.1.2** passed the automated review with no errors and **Excellent** health. The released build matches the build from its source byte for byte.
+
+La versión **0.1.2** superó la revisión automática sin errores y con estado **Excellent**. La compilación publicada coincide byte por byte con la generada a partir de su código fuente.
 
 ## Submission values / Datos del envío
 
@@ -14,6 +20,8 @@ Status / Estado: **not yet listed / todavía no incluido**. Updated / Actualizad
 | Release / Versión publicada | [0.1.2](https://github.com/TheWillyM4AK/obsidian-accent-insensitive-search/releases/tag/0.1.2) |
 
 ## English
+
+The following procedure records the initial submission; the plugin is already published.
 
 Submission uses the [Obsidian Community portal](https://community.obsidian.md), rather than a pull request to `obsidianmd/obsidian-releases`. Follow the [official submission guide](https://docs.obsidian.md/plugins/releasing/submit-plugin).
 
@@ -29,6 +37,8 @@ Account and form details are covered in [Set up and claim](https://docs.obsidian
 Review the automated scan. Fix reported errors in the repository and publish an incremented release. Resolve errors before publishing the listing; publishing a GitHub release alone does not add the plugin to Obsidian's catalog. See [Manage your plugin or theme](https://docs.obsidian.md/community-directory/manage-entry).
 
 ## Español
+
+El siguiente procedimiento documenta el envío inicial; el plugin ya está publicado.
 
 El envío se realiza en el [portal Obsidian Community](https://community.obsidian.md), sin abrir un pull request en `obsidianmd/obsidian-releases`. Sigue la [guía oficial de envío](https://docs.obsidian.md/plugins/releasing/submit-plugin).
 

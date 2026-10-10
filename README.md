@@ -31,7 +31,12 @@ This plugin extends file and alias matching in those two interfaces. It does not
 
 ## Installation
 
-**Community catalog status: not yet listed.** Until the plugin is accepted into Obsidian's catalog, use BRAT or a manual installation.
+### Community catalog
+
+1. Open the [official plugin listing](https://community.obsidian.md/plugins/busqueda-sin-tildes) and select **Add to Obsidian**.
+2. Follow Obsidian's installation prompts, then enable **Accent Insensitive Search** in **Settings → Community plugins**.
+
+BRAT and manual installation are also available below.
 
 ### BRAT
 

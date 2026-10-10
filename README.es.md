@@ -31,7 +31,12 @@ El plugin amplía la búsqueda de archivos y aliases en esas dos interfaces. No 
 
 ## Instalación
 
-**Estado en el catálogo de la comunidad: todavía no incluido.** Hasta que se acepte en el catálogo de Obsidian, utiliza BRAT o la instalación manual.
+### Catálogo de la comunidad
+
+1. Abre la [ficha oficial del plugin](https://community.obsidian.md/plugins/busqueda-sin-tildes) y selecciona **Add to Obsidian**.
+2. Sigue las indicaciones de instalación de Obsidian y activa **Accent Insensitive Search** en **Ajustes → Plugins de la comunidad**.
+
+También puedes utilizar BRAT o la instalación manual que se explican a continuación.
 
 ### BRAT
 
