@@ -1,23 +1,40 @@
-# Community announcement draft / Borrador de anuncio
+# Obsidian Forum announcement draft
 
-Not posted. Choose the language below when sharing it. / Sin publicar. Elige el idioma al compartirlo.
+Status: **prepared, not posted**. Updated: 2026-10-10.
 
-## English
+## Suggested placement
 
-**Accent Insensitive Search: search without typing accents or diaereses**
+Create one announcement in [Share & showcase → Plugins](https://forum.obsidian.md/c/share-showcase/plugins/22). Suggested tags, if available: `plugin-release`, `quick-switcher`, `internal-links`.
 
-For years, having to type accents to find my notes in Obsidian was a nuisance. I had seen several forum threads about the same problem, so I finally created **Accent Insensitive Search** with the help of AI to solve it and share it with the community.
+Then add the short, contextual reply below to [Ignore Accents/Diacritics on Quick Switcher and Internal Links](https://forum.obsidian.md/t/ignore-accents-diacritics-on-quick-switcher-and-internal-links/83304), where TheWillyM4AK shared the alias workaround on June 27, 2024. Once the announcement exists, the reply can also link to it.
 
-Accents and diaereses do not affect matches in Ctrl+O / Cmd+O and `[[`: `alvaro gomez` finds **Álvaro Gómez**, and `pinguino` finds **Pingüino**. Original spelling is preserved. **`ñ` remains distinct from `n`: it is a separate Spanish letter with its own key on Spanish keyboards, so typing it requires no extra keystroke to add an accent.**
+The [broader request from 2020](https://forum.obsidian.md/t/ignore-accents-diacritics-in-link-suggestion-quick-switcher-find-in-file-and-global-search/1655) is relevant background, but also covers global content search, which this plugin does not change. Avoid duplicating the announcement across threads.
 
-[Install from the community catalog](https://community.obsidian.md/plugins/busqueda-sin-tildes) · [GitHub — English/Spanish instructions](https://github.com/TheWillyM4AK/obsidian-accent-insensitive-search). Mobile testing pending.
+## New topic
 
-## Español
+### Accent Insensitive Search: ignore accents in Quick Switcher and [[ links
 
-**Accent Insensitive Search: busca sin escribir tildes ni diéresis**
+For years, typing accents to find my notes in Obsidian was a nuisance. After seeing several forum threads about the same problem, I finally created **Accent Insensitive Search** with the help of AI.
 
-Llevaba años con este problema en Obsidian: tener que escribir las tildes para encontrar mis notas resultaba incómodo. Había visto varios hilos en el foro sobre lo mismo, así que finalmente creé **Accent Insensitive Search** con ayuda de IA para solucionarlo y compartirlo con la comunidad.
+It adds **accent-insensitive (diacritic-insensitive) search** to note names and aliases in the native **Quick Switcher (Ctrl+O / Cmd+O)** and **internal link suggestions (`[[` / wikilink autocomplete)**:
 
-Las tildes y la diéresis no afectan a las coincidencias en Ctrl+O / Cmd+O y `[[`: `alvaro gomez` encuentra **Álvaro Gómez** y `pinguino` encuentra **Pingüino**. Se conserva la escritura original. **La `ñ` sigue siendo distinta de `n`: es una letra propia con su propia tecla en el teclado español, por lo que no exige una pulsación extra para añadir un acento.**
+- `alvaro gomez` finds **Álvaro Gómez**
+- `pinguino` finds **Pingüino**
 
-[Instalar desde el catálogo de la comunidad](https://community.obsidian.md/plugins/busqueda-sin-tildes) · [GitHub — instrucciones en español e inglés](https://github.com/TheWillyM4AK/obsidian-accent-insensitive-search). Prueba en móvil pendiente.
+Suggestions and inserted links keep their original spelling, without adding unaccented aliases manually.
+
+**`ñ` stays distinct from `n`:** it is a separate Spanish letter with its own key on Spanish keyboards, so it requires no extra keystroke to add an accent.
+
+Global content search is unchanged. Tested on desktop; practical mobile testing is pending.
+
+[Install from the community directory](https://community.obsidian.md/plugins/busqueda-sin-tildes) · [GitHub and English/Spanish instructions](https://github.com/TheWillyM4AK/obsidian-accent-insensitive-search)
+
+Sharing this for anyone still looking for a solution. Feedback from Spanish speakers and users of other languages is welcome!
+
+## Reply to the existing thread
+
+Back in 2024, I mentioned adding unaccented aliases as a workaround here. I finally created **Accent Insensitive Search** with AI assistance to solve this directly in the native Quick Switcher and `[[` suggestions: `alvaro gomez` finds **Álvaro Gómez**, without adding aliases manually.
+
+It ignores accents and diaereses, preserves original spelling, and keeps Spanish `ñ` distinct from `n`. Global content search is unchanged.
+
+[Plugin and installation](https://community.obsidian.md/plugins/busqueda-sin-tildes)
