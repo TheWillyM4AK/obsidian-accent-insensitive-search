@@ -1,6 +1,6 @@
 # Obsidian Forum announcement draft
 
-Status: **prepared, not posted**. Updated: 2026-10-10.
+Status: **drafts prepared in forum, not published**. Updated: 2026-10-10. Once the announcement is published, its URL will be added to the reply as required by the category rules.
 
 ## Suggested placement
 
@@ -13,6 +13,14 @@ The [broader request from 2020](https://forum.obsidian.md/t/ignore-accents-diacr
 ## New topic
 
 ### Accent Insensitive Search: ignore accents in Quick Switcher and [[ links
+
+> ## Disclaimer
+> Is this plugin **open source**? Yes
+> Is this plugin completely **free**? Yes
+> Is this plugin **vibe-coded** beyond the author's ability to comprehend how it works? Yes
+> Community Directory: [Accent Insensitive Search](https://community.obsidian.md/plugins/busqueda-sin-tildes)
+
+---
 
 For years, typing accents to find my notes in Obsidian was a nuisance. After seeing several forum threads about the same problem, I finally created **Accent Insensitive Search** with the help of AI.
 
