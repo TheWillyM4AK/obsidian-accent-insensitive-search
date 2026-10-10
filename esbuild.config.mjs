@@ -1,7 +1,7 @@
 import { build } from 'esbuild';
 import { readFileSync } from 'node:fs';
 
-const { version } = JSON.parse(readFileSync('manifest.json', 'utf8'));
+const { name, version } = JSON.parse(readFileSync('manifest.json', 'utf8'));
 
 await build({
   entryPoints: ['src/main.ts'],
@@ -13,5 +13,5 @@ await build({
   external: ['obsidian'],
   sourcemap: false,
   minify: false,
-  banner: { js: `/* Spanish Accent Search ${version} | MIT | No network requests. */` }
+  banner: { js: `/* ${name} ${version} | MIT | No network requests. */` }
 });

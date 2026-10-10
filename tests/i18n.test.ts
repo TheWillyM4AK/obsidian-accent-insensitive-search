@@ -13,10 +13,10 @@ describe('compatibility notice language', () => {
 
   it.each(['en', 'en-GB', 'fr', ''])('uses English for %s', language => {
     expect(incompatibilityNotice(language, 'quickSwitcher')).toBe(
-      'Spanish Accent Search: this version cannot ignore accents in Ctrl+O. Native search remains active.'
+      'Accent Insensitive Search: this version cannot ignore accents in Ctrl+O. Native search remains active.'
     );
     expect(incompatibilityNotice(language, 'wikilinks')).toBe(
-      'Spanish Accent Search: this version cannot ignore accents in [[ suggestions. Native search remains active.'
+      'Accent Insensitive Search: this version cannot ignore accents in [[ suggestions. Native search remains active.'
     );
   });
 

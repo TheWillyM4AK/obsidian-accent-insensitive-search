@@ -1,4 +1,4 @@
-# Spanish Accent Search
+# Accent Insensitive Search
 
 [Español](README.es.md) · English
 
@@ -6,7 +6,9 @@ Search without typing accents or diaereses in Obsidian's native **Quick switcher
 
 For years, having to type accents just to find my notes was an annoying part of using Obsidian. I had seen several forum threads from people with the same problem, so I finally decided to create this plugin with the help of AI to solve it and share it with the community.
 
-Designed with Spanish in mind: **`ñ` stays a separate letter from `n`**. It can also help with other languages that use combining diacritics; it is not a general transliteration tool.
+**Why are `n` and `ñ` different?** In Spanish, `ñ` is a letter in its own right and has its own key on the Spanish keyboard. Typing it does not require an extra keystroke to add an accent mark, so the plugin preserves it as a distinct letter: `ano` does not find `año`.
+
+The plugin was created for writing in Spanish and can also help with other languages that use combining diacritics. It is not a general transliteration tool.
 
 | Type | Find |
 | --- | --- |
@@ -34,14 +36,14 @@ This plugin extends file and alias matching in those two interfaces. It does not
 ### BRAT
 
 1. Install and enable [BRAT](https://github.com/TfTHacker/obsidian42-brat) from Obsidian's community plugins.
-2. Add this repository in BRAT: `https://github.com/TheWillyM4AK/obsidian-spanish-accent-search`.
-3. Enable **Spanish Accent Search** in **Settings → Community plugins**, if it is not enabled already.
+2. Add this repository in BRAT: `https://github.com/TheWillyM4AK/obsidian-accent-insensitive-search`.
+3. Enable **Accent Insensitive Search** in **Settings → Community plugins**, if it is not enabled already.
 
 ### Manual
 
-1. Download `main.js` and `manifest.json` from the [latest release](https://github.com/TheWillyM4AK/obsidian-spanish-accent-search/releases/latest).
+1. Download `main.js` and `manifest.json` from the [latest release](https://github.com/TheWillyM4AK/obsidian-accent-insensitive-search/releases/latest).
 2. Create `.obsidian/plugins/busqueda-sin-tildes/` inside your vault and place both files there.
-3. Restart Obsidian and enable **Spanish Accent Search** in **Settings → Community plugins**.
+3. Restart Obsidian and enable **Accent Insensitive Search** in **Settings → Community plugins**.
 
 Use Quick switcher and `[[` as usual. Disable the plugin to restore native search behavior.
 
@@ -71,7 +73,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the native integration procedure and 
 
 ## Feedback
 
-[Open an issue](https://github.com/TheWillyM4AK/obsidian-spanish-accent-search/issues) in English or Spanish. Include your Obsidian and plugin versions, platform, and a minimal example with fictional note names. Suggestions and reproducible reports from other languages are welcome.
+[Open an issue](https://github.com/TheWillyM4AK/obsidian-accent-insensitive-search/issues) in English or Spanish. Include your Obsidian and plugin versions, platform, and a minimal example with fictional note names. Suggestions and reproducible reports from other languages are welcome.
 
 ## License
 

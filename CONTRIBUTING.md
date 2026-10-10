@@ -2,7 +2,7 @@
 
 ## English
 
-Issues and pull requests in English or Spanish are welcome. Start a discussion in an issue before proposing a larger feature or changing normalization rules. Preserving the Spanish distinction between `n` and `ñ` is intentional.
+Issues and pull requests in English or Spanish are welcome. Start a discussion in an issue before proposing a larger feature or changing normalization rules. Preserving the distinction between `n` and `ñ` is intentional: `ñ` is a separate Spanish letter with its own key on Spanish keyboards, without an extra keystroke to add an accent.
 
 ### Report a problem
 
@@ -28,7 +28,7 @@ Unit tests use an Obsidian API substitute. `tests/native.integration.js` exercis
 
 The fixture contains an expression that evaluates to an async function with two arguments: `app` and a baseline object containing `quickOriginal` and `linkOriginal`. Run it through Obsidian's developer CLI evaluation command:
 
-1. Disable Spanish Accent Search in the test vault and capture references to the unwrapped native Quick switcher's `getSuggestions` and the wikilink suggestion manager's `getFileSuggestions` methods.
+1. Disable Accent Insensitive Search in the test vault and capture references to the unwrapped native Quick switcher's `getSuggestions` and the wikilink suggestion manager's `getFileSuggestions` methods.
 2. Keep those references in memory as `{ quickOriginal, linkOriginal }`, then enable the plugin and wait for the workspace layout to be ready.
 3. Evaluate the fixture function with the running `app` and that baseline object. All checks must pass, with an empty `failures` array.
 4. Disable the plugin and verify that the original methods and their inheritance are restored, then enable it again and check that both adaptations are active without errors.
@@ -39,7 +39,7 @@ Contributions are distributed under the repository's [MIT license](LICENSE).
 
 ## Español
 
-Se aceptan incidencias y pull requests en español o inglés. Abre una incidencia para comentar las funciones grandes o los cambios en las reglas de normalización antes de implementarlos. La distinción entre `n` y `ñ` es intencionada.
+Se aceptan incidencias y pull requests en español o inglés. Abre una incidencia para comentar las funciones grandes o los cambios en las reglas de normalización antes de implementarlos. La distinción entre `n` y `ñ` es intencionada: la `ñ` es una letra propia con su propia tecla en el teclado español, sin una pulsación adicional para añadir un acento.
 
 ### Comunicar un problema
 
@@ -65,7 +65,7 @@ Las pruebas unitarias usan un sustituto de la API de Obsidian. `tests/native.int
 
 El archivo contiene una expresión que devuelve una función asíncrona con dos argumentos: `app` y un objeto de referencia con `quickOriginal` y `linkOriginal`. Ejecútala mediante el comando de evaluación de la CLI de desarrollo de Obsidian:
 
-1. Desactiva Spanish Accent Search en el baúl de pruebas y conserva referencias a los métodos nativos originales: `getSuggestions` del selector rápido y `getFileSuggestions` del gestor de sugerencias de wikilinks.
+1. Desactiva Accent Insensitive Search en el baúl de pruebas y conserva referencias a los métodos nativos originales: `getSuggestions` del selector rápido y `getFileSuggestions` del gestor de sugerencias de wikilinks.
 2. Guarda esas referencias en memoria como `{ quickOriginal, linkOriginal }`, activa el plugin y espera a que el espacio de trabajo esté listo.
 3. Evalúa la función con el `app` de la instancia abierta y ese objeto de referencia. Todas las comprobaciones deben pasar y `failures` debe ser un array vacío.
 4. Desactiva el plugin y comprueba que se restauran los métodos originales y su herencia; vuelve a activarlo y comprueba que ambas adaptaciones funcionan sin errores.

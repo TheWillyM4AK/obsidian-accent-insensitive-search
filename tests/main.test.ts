@@ -147,10 +147,10 @@ describe("ciclo de vida y compatibilidad del plugin", () => {
     const env = environment({ missingQuick: true, missingLinks: true });
     env.load();
     expect(mock.notice).toHaveBeenCalledWith(
-      expect.stringContaining('Spanish Accent Search: this version cannot ignore accents in Ctrl+O'), 10000
+      expect.stringContaining('Accent Insensitive Search: this version cannot ignore accents in Ctrl+O'), 10000
     );
     expect(mock.notice).toHaveBeenCalledWith(
-      expect.stringContaining('Spanish Accent Search: this version cannot ignore accents in [[ suggestions'), 10000
+      expect.stringContaining('Accent Insensitive Search: this version cannot ignore accents in [[ suggestions'), 10000
     );
     env.plugin.onunload();
   });

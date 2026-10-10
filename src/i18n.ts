@@ -7,5 +7,5 @@ export function incompatibilityNotice(language: string, surface: SearchSurface):
     return `Búsqueda sin tildes: esta versión no permite ignorar acentos en ${label}. La búsqueda nativa sigue activa.`;
   }
   const label = surface === 'quickSwitcher' ? 'Ctrl+O' : '[[ suggestions';
-  return `Spanish Accent Search: this version cannot ignore accents in ${label}. Native search remains active.`;
+  return `Accent Insensitive Search: this version cannot ignore accents in ${label}. Native search remains active.`;
 }

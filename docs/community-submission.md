@@ -6,18 +6,18 @@ Status / Estado: **not yet listed / todavía no incluido**. Updated / Actualizad
 
 | Field / Campo | Value / Valor |
 | --- | --- |
-| GitHub repository URL | `https://github.com/TheWillyM4AK/obsidian-spanish-accent-search` |
+| GitHub repository URL | `https://github.com/TheWillyM4AK/obsidian-accent-insensitive-search` |
 | Owner | **Myself** |
-| Plugin name / Nombre | Spanish Accent Search |
+| Plugin name / Nombre | Accent Insensitive Search |
 | Plugin ID | `busqueda-sin-tildes` |
-| Release version / Versión | `0.1.1` |
-| Release / Versión publicada | [0.1.1](https://github.com/TheWillyM4AK/obsidian-spanish-accent-search/releases/tag/0.1.1) |
+| Release version / Versión | `0.1.2` |
+| Release / Versión publicada | [0.1.2](https://github.com/TheWillyM4AK/obsidian-accent-insensitive-search/releases/tag/0.1.2) |
 
 ## English
 
 Submission uses the [Obsidian Community portal](https://community.obsidian.md), rather than a pull request to `obsidianmd/obsidian-releases`. Follow the [official submission guide](https://docs.obsidian.md/plugins/releasing/submit-plugin).
 
-Before submitting, ensure the public repository's default branch contains the current README, LICENSE, and manifest. Release tag `0.1.1` must match `manifest.json` and include `main.js` and `manifest.json` as assets; this plugin needs no stylesheet.
+Before submitting, ensure the public repository's default branch contains the current README, LICENSE, and manifest. Release tag `0.1.2` must match `manifest.json` and include `main.js` and `manifest.json` as assets; this plugin needs no stylesheet.
 
 1. Sign in to the portal with an Obsidian account.
 2. On the community profile, use **GitHub → Connect** to authorize the GitHub account that owns this repository.
@@ -32,7 +32,7 @@ Review the automated scan. Fix reported errors in the repository and publish an 
 
 El envío se realiza en el [portal Obsidian Community](https://community.obsidian.md), sin abrir un pull request en `obsidianmd/obsidian-releases`. Sigue la [guía oficial de envío](https://docs.obsidian.md/plugins/releasing/submit-plugin).
 
-Antes del envío, comprueba que la rama predeterminada del repositorio público contiene el README, LICENSE y manifest actuales. La etiqueta `0.1.1` debe coincidir con `manifest.json` y adjuntar `main.js` y `manifest.json`; este plugin no necesita hoja de estilos.
+Antes del envío, comprueba que la rama predeterminada del repositorio público contiene el README, LICENSE y manifest actuales. La etiqueta `0.1.2` debe coincidir con `manifest.json` y adjuntar `main.js` y `manifest.json`; este plugin no necesita hoja de estilos.
 
 1. Inicia sesión en el portal con una cuenta de Obsidian.
 2. En el perfil, usa **GitHub → Connect** para autorizar la cuenta de GitHub propietaria del repositorio.

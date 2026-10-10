@@ -1,5 +1,19 @@
 # Changelog / Historial de cambios
 
+## 0.1.2 — 2026-10-10
+
+### English
+
+- Renamed the plugin to **Accent Insensitive Search** and the repository to `obsidian-accent-insensitive-search` to describe the functionality directly.
+- Clarified why `n` and `ñ` remain distinct: `ñ` is a separate Spanish letter with its own key on Spanish keyboards, without an extra keystroke to add an accent.
+- Updated bilingual instructions and the forum draft. Search behavior is unchanged.
+
+### Español
+
+- Nuevo nombre **Accent Insensitive Search** y repositorio `obsidian-accent-insensitive-search`, para describir la función directamente.
+- Aclarado por qué se distinguen `n` y `ñ`: la `ñ` es una letra propia con su propia tecla en el teclado español, sin una pulsación adicional para añadir un acento.
+- Actualizadas las instrucciones bilingües y el borrador del foro. El comportamiento de búsqueda no cambia.
+
 ## 0.1.1 — 2026-10-10
 
 ### English
