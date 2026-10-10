@@ -6,12 +6,12 @@ Status / Estado: **not yet listed / todavía no incluido**. Updated / Actualizad
 
 | Field / Campo | Value / Valor |
 | --- | --- |
-| GitHub repository URL | `https://github.com/TheWillyM4AK/obsidian-busqueda-sin-tildes` |
+| GitHub repository URL | `https://github.com/TheWillyM4AK/obsidian-spanish-accent-search` |
 | Owner | **Myself** |
 | Plugin name / Nombre | Spanish Accent Search |
 | Plugin ID | `busqueda-sin-tildes` |
 | Release version / Versión | `0.1.1` |
-| Release / Versión publicada | [0.1.1](https://github.com/TheWillyM4AK/obsidian-busqueda-sin-tildes/releases/tag/0.1.1) |
+| Release / Versión publicada | [0.1.1](https://github.com/TheWillyM4AK/obsidian-spanish-accent-search/releases/tag/0.1.1) |
 
 ## English
 

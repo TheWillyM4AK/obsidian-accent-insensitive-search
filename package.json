@@ -1,8 +1,8 @@
 {
-  "name": "obsidian-busqueda-sin-tildes",
+  "name": "obsidian-spanish-accent-search",
   "version": "0.1.1",
   "private": true,
-  "description": "Accent-insensitive native note search with Spanish n/ñ distinction.",
+  "description": "Search notes without typing accents or diaereses, preserving Spanish n/ñ.",
   "scripts": {
     "build": "node esbuild.config.mjs",
     "typecheck": "tsc --noEmit",
@@ -26,7 +26,7 @@
   "author": "TheWillyM4AK",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TheWillyM4AK/obsidian-busqueda-sin-tildes.git"
+    "url": "https://github.com/TheWillyM4AK/obsidian-spanish-accent-search.git"
   },
   "engines": {
     "node": ">=24"
