@@ -1,8 +1,8 @@
 {
   "name": "obsidian-accent-insensitive-search",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": true,
-  "description": "Search note names and aliases without typing accents or diaereses. Spanish keyboards give ñ its own key, so n and ñ remain distinct.",
+  "description": "Ignore accents and diaereses in Quick switcher and link suggestions.",
   "scripts": {
     "build": "node esbuild.config.mjs",
     "typecheck": "tsc --noEmit",

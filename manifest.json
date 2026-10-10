@@ -1,9 +1,9 @@
 {
   "id": "busqueda-sin-tildes",
   "name": "Accent Insensitive Search",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "minAppVersion": "1.14.4",
-  "description": "Search note names and aliases without typing accents or diaereses in Quick switcher and link suggestions. Keep spelling. The Spanish letter enye has its own keyboard key and stays distinct from n.",
+  "description": "Ignore accents and diaereses in Quick switcher and link suggestions.",
   "author": "TheWillyM4AK",
   "authorUrl": "https://github.com/TheWillyM4AK",
   "isDesktopOnly": false

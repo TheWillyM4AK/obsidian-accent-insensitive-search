@@ -1,5 +1,10 @@
 # Changelog / Historial de cambios
 
+## 0.1.3 — 2026-10-10
+
+- Shortened the plugin description to one sentence. Search behavior is unchanged; the explanation of `ñ` remains in the documentation.
+- Descripción del plugin reducida a una frase. La búsqueda funciona igual; la explicación de la `ñ` se mantiene en la documentación.
+
 ## 0.1.2 — 2026-10-10
 
 ### English
