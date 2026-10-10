@@ -56,7 +56,7 @@ Use Quick switcher and `[[` as usual. Disable the plugin to restore native searc
 
 - Minimum supported version: **Obsidian 1.14.4**.
 - Verified on desktop with Obsidian 1.14.4, including native methods exercised with in-memory files and an editor stub.
-- Designed for desktop and mobile without platform-specific dependencies. **Practical mobile verification is pending.**
+- Designed for desktop and mobile without platform-specific dependencies. **The plugin's creator has tested it successfully on mobile.**
 
 The integration wraps internal Obsidian methods because the public API does not expose a hook for these native searches. An Obsidian update or another plugin changing the same methods may require a compatibility update. If an interface is missing or its result format is incompatible, the affected component falls back to native behavior and shows a one-time notice in Spanish when Obsidian's language is Spanish, or in English otherwise. Deactivation restores the wrapped methods where possible and makes remaining wrappers inactive.
 

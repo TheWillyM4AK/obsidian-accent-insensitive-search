@@ -56,7 +56,7 @@ Usa Ctrl+O y `[[` como siempre. Desactiva el plugin para recuperar el comportami
 
 - Versión mínima admitida: **Obsidian 1.14.4**.
 - Verificado en escritorio con Obsidian 1.14.4, incluidas comprobaciones de los métodos nativos con archivos y un editor simulados en memoria.
-- Diseñado para escritorio y móvil, sin dependencias específicas de una plataforma. **La verificación práctica en móvil está pendiente.**
+- Diseñado para escritorio y móvil, sin dependencias específicas de una plataforma. **Su creador lo ha probado en móvil y ha confirmado que funciona correctamente.**
 
 La integración envuelve métodos internos de Obsidian porque la API pública no ofrece un punto de extensión para estas búsquedas nativas. Una actualización de Obsidian u otro plugin que cambie los mismos métodos puede exigir una revisión de compatibilidad. Si falta una interfaz o cambia el formato de sus resultados, el componente afectado conserva el comportamiento nativo y muestra un aviso único en español cuando Obsidian está en español, o en inglés para los demás idiomas. Al desactivar el plugin, se restauran los métodos cuando es posible y los wrappers que permanezcan quedan inactivos.
 

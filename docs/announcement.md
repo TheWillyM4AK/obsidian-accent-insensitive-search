@@ -25,7 +25,7 @@ Suggestions and inserted links keep their original spelling, without adding unac
 
 **`ñ` stays distinct from `n`:** it is a separate Spanish letter with its own key on Spanish keyboards, so it requires no extra keystroke to add an accent.
 
-Global content search is unchanged. Tested on desktop; practical mobile testing is pending.
+Global content search is unchanged. Tested on desktop and mobile.
 
 [Install from the community directory](https://community.obsidian.md/plugins/busqueda-sin-tildes) · [GitHub and English/Spanish instructions](https://github.com/TheWillyM4AK/obsidian-accent-insensitive-search)
 
