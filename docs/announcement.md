@@ -53,17 +53,15 @@ It ignores accents and diaereses, preserves original spelling, and keeps Spanish
 
 ## Follow-up: native support in Obsidian 1.15
 
-Status: **draft**. Publish after release 0.2.0 is available.
+Status: **published**. Published: 2026-10-24, after release 0.2.0. [Reply](https://forum.obsidian.md/t/accent-insensitive-search-ignore-accents-in-quick-switcher-and-links/119290/8).
 
-The 2020 request is closed, so the announcement topic is the only place to update. Edit its first post with the note below and reply once.
+The 2020 request is closed, so the announcement topic is the only place to update. The forum's edit window for the first post had expired, so the planned note at the top and the follow-up reply were combined into a single reply.
 
-### Note at the top of the announcement
+### Published reply
 
-> **Update, October 2026:** Obsidian 1.15.0 now ignores accents natively in link suggestions, Quick Switcher, Command palette, and Bases search ([release notes](https://obsidian.md/changelog/2026-10-22-desktop-v1.15.0/)). It is in early access for now. If you're on 1.15 or later, you can uninstall this plugin. Version 0.2.0 stays inactive there. It remains useful on 1.14.x until 1.15 reaches the public release.
+**Update: Obsidian 1.15 now does this natively.** Obsidian 1.15.0 ignores accents in link suggestions, Quick Switcher, Command palette, and Bases search ([release notes](https://obsidian.md/changelog/2026-10-22-desktop-v1.15.0/)). It's in early access for now.
 
-### Reply in the announcement topic
-
-Quick follow-up for anyone landing here: version **0.2.0** detects Obsidian 1.15 or later, stays inactive, and shows a one-time notice suggesting you uninstall it. On 1.14.x it keeps working until 1.15 reaches the public release. After that, I'll retire it.
+If you're on 1.15 or later, you can uninstall Accent Insensitive Search. Version **0.2.0** detects it, stays inactive, and shows a one-time notice. On 1.14.x it keeps working until 1.15 reaches the public release. After that, I'll retire it.
 
 One small difference: native search also treats `ñ` as `n`, so `ano` finds `Año`.
 
