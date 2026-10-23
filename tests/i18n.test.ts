@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { incompatibilityNotice, type SearchSurface } from '../src/i18n';
+import { incompatibilityNotice, nativeSupportNotice, type SearchSurface } from '../src/i18n';
 
 describe('compatibility notice language', () => {
   it.each(['es', 'es-MX', 'es-ES', 'ES'])('uses Spanish for %s', language => {
@@ -23,5 +23,19 @@ describe('compatibility notice language', () => {
   it.each<SearchSurface>(['quickSwitcher', 'wikilinks'])('identifies the affected surface: %s', surface => {
     expect(incompatibilityNotice('es', surface)).toContain(surface === 'quickSwitcher' ? 'Ctrl+O' : '[[');
     expect(incompatibilityNotice('en', surface)).toContain(surface === 'quickSwitcher' ? 'Ctrl+O' : '[[');
+  });
+});
+
+describe('native support notice language', () => {
+  it.each(['es', 'es-MX', 'ES'])('uses Spanish for %s', language => {
+    expect(nativeSupportNotice(language)).toBe(
+      'Búsqueda sin tildes: Obsidian 1.15 ya ignora los acentos de forma nativa. El plugin queda inactivo y puedes desinstalarlo.'
+    );
+  });
+
+  it.each(['en', 'fr', ''])('uses English for %s', language => {
+    expect(nativeSupportNotice(language)).toBe(
+      'Accent Insensitive Search: Obsidian 1.15 now ignores accents natively. The plugin stays inactive, and you can uninstall it.'
+    );
   });
 });

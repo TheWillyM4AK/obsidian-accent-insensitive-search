@@ -2,6 +2,11 @@
 
 Español · [English](README.md)
 
+> [!IMPORTANT]
+> **Obsidian 1.15 ya lo hace de forma nativa.** Desde Obsidian 1.15.0 (acceso anticipado desde el 22 de octubre de 2026), las sugerencias de enlaces, el selector rápido, la paleta de comandos y la búsqueda de Bases ignoran las tildes sin necesidad de plugins ([notas de la versión](https://obsidian.md/changelog/2026-10-22-desktop-v1.15.0/)). Si usas la 1.15 o posterior, puedes desinstalar este plugin: desde la versión 0.2.0 queda inactivo en esas versiones y muestra un aviso una sola vez. Hasta que la 1.15 llegue a la versión pública, sigue siendo útil en Obsidian 1.14.x; después se retirará.
+>
+> Una diferencia: la búsqueda nativa también trata la `ñ` como `n`, así que `ano` encuentra `Año`.
+
 Busca sin escribir tildes ni diéresis en el **selector rápido nativo de Obsidian (Ctrl+O / Cmd+O)** y las **sugerencias de enlaces `[[`**. Esas pulsaciones extra no afectan a las coincidencias: `alvaro gomez` encuentra **Álvaro Gómez** y `pinguino` encuentra **Pingüino**. Tus notas y enlaces conservan su escritura original.
 
 Llevaba años encontrándome con este problema: tener que escribir las tildes para encontrar mis notas resultaba incómodo. Había visto varios hilos en el foro de Obsidian con personas a las que les pasaba lo mismo, así que finalmente decidí crear este plugin con ayuda de IA para solucionarlo y compartirlo con la comunidad.
@@ -57,6 +62,7 @@ Usa Ctrl+O y `[[` como siempre. Desactiva el plugin para recuperar el comportami
 - Versión mínima admitida: **Obsidian 1.14.4**.
 - Verificado en escritorio con Obsidian 1.14.4, incluidas comprobaciones de los métodos nativos con archivos y un editor simulados en memoria.
 - Diseñado para escritorio y móvil, sin dependencias específicas de una plataforma. **Su creador lo ha probado en móvil y ha confirmado que funciona correctamente.**
+- En Obsidian 1.15 o posterior, que ya incluye esta función, el plugin no modifica ninguna búsqueda. Muestra un aviso una sola vez y lo recuerda en su propio `data.json`.
 
 La integración envuelve métodos internos de Obsidian porque la API pública no ofrece un punto de extensión para estas búsquedas nativas. Una actualización de Obsidian u otro plugin que cambie los mismos métodos puede exigir una revisión de compatibilidad. Si falta una interfaz o cambia el formato de sus resultados, el componente afectado conserva el comportamiento nativo y muestra un aviso único en español cuando Obsidian está en español, o en inglés para los demás idiomas. Al desactivar el plugin, se restauran los métodos cuando es posible y los wrappers que permanezcan quedan inactivos.
 

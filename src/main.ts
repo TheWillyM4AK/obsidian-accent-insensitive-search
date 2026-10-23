@@ -1,8 +1,15 @@
-import { Notice, Plugin, getLanguage, parseFrontMatterAliases, prepareFuzzySearch } from 'obsidian';
+import { Notice, Plugin, getLanguage, parseFrontMatterAliases, prepareFuzzySearch, requireApiVersion } from 'obsidian';
 import { extendLinkResults, extendQuickResults, type LinkContext, type LinkResult, type QuickContext, type QuickResult, type Runnable } from './adapters';
 import { NormalizedMatcher } from './matching';
 import { patchMethod, type MethodPatch } from './patch';
-import { incompatibilityNotice, type SearchSurface } from './i18n';
+import { incompatibilityNotice, nativeSupportNotice, type SearchSurface } from './i18n';
+
+/** Desde esta versión, Obsidian ignora los acentos en sus sugerencias nativas. */
+export const NATIVE_SUPPORT_VERSION = '1.15.0';
+
+interface StoredData {
+  nativeNoticeShown?: boolean;
+}
 
 interface NativeSurface {
   internalPlugins?: {
@@ -22,6 +29,11 @@ export default class BusquedaSinTildes extends Plugin {
   private status = { quickSwitcher: false, wikilinks: false };
 
   onload(): void {
+    // Con el soporte nativo, los parches solo duplicarían el trabajo de Obsidian.
+    if (requireApiVersion(NATIVE_SUPPORT_VERSION)) {
+      this.app.workspace.onLayoutReady(() => void this.announceNativeSupport());
+      return;
+    }
     this.enabled = true;
     this.app.workspace.onLayoutReady(() => this.applyPatches());
     this.registerEvent(this.app.workspace.on('layout-change', () => this.applyPatches()));
@@ -36,6 +48,14 @@ export default class BusquedaSinTildes extends Plugin {
   }
 
   getStatus(): Readonly<typeof this.status> { return { ...this.status }; }
+
+  /** Avisa una sola vez por vault de que el plugin ya no es necesario. */
+  private async announceNativeSupport(): Promise<void> {
+    const data = ((await this.loadData()) ?? {}) as StoredData;
+    if (data.nativeNoticeShown) return;
+    new Notice(nativeSupportNotice(getLanguage()), 0);
+    await this.saveData({ ...data, nativeNoticeShown: true });
+  }
 
   private warnOnce(surface: SearchSurface): void {
     if (this.notices.has(surface) || !this.enabled) return;

@@ -1,5 +1,19 @@
 # Changelog / Historial de cambios
 
+## 0.2.0 — 2026-10-24
+
+### English
+
+- Obsidian 1.15.0 ignores accents natively in link suggestions, Quick switcher, Command palette, and Bases search. On Obsidian 1.15 or later, the plugin no longer wraps any native method and shows a one-time notice that it can be uninstalled. The plugin's `data.json` records that the notice was shown.
+- No changes on Obsidian 1.14.x.
+- Updated the description and documentation to point to the native feature.
+
+### Español
+
+- Obsidian 1.15.0 ignora las tildes de forma nativa en las sugerencias de enlaces, el selector rápido, la paleta de comandos y la búsqueda de Bases. En Obsidian 1.15 o posterior, el plugin ya no envuelve ningún método nativo y muestra un aviso único de que puede desinstalarse. El `data.json` del plugin registra que el aviso ya se mostró.
+- Sin cambios en Obsidian 1.14.x.
+- Descripción y documentación actualizadas para remitir a la función nativa.
+
 ## 0.1.3 — 2026-10-10
 
 - Shortened the plugin description to one sentence. Search behavior is unchanged; the explanation of `ñ` remains in the documentation.

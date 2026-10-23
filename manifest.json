@@ -1,9 +1,9 @@
 {
   "id": "busqueda-sin-tildes",
   "name": "Accent Insensitive Search",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "minAppVersion": "1.14.4",
-  "description": "Ignore accents and diaereses in Quick switcher and link suggestions.",
+  "description": "Ignore accents and diaereses in Quick switcher and link suggestions. Not needed in app version 1.15 or later, which does this natively.",
   "author": "TheWillyM4AK",
   "authorUrl": "https://github.com/TheWillyM4AK",
   "isDesktopOnly": false

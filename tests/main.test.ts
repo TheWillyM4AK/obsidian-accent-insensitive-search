@@ -2,13 +2,18 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import type { App, PluginManifest } from "obsidian";
 import type { LinkResult, QuickResult } from "../src/adapters";
 
-const mock = vi.hoisted(() => ({ notice: vi.fn(), getLanguage: vi.fn(() => 'es') }));
+const mock = vi.hoisted(() => ({
+  notice: vi.fn(), getLanguage: vi.fn(() => 'es'), requireApiVersion: vi.fn(() => false),
+}));
 
 vi.mock("obsidian", () => ({
   Plugin: class {
     registerEvent = vi.fn();
+    loadData = vi.fn(async (): Promise<unknown> => null);
+    saveData = vi.fn(async (): Promise<void> => undefined);
     constructor(public app: unknown) {}
   },
+  requireApiVersion: mock.requireApiVersion,
   Notice: class {
     constructor(message: string, duration: number) { mock.notice(message, duration); }
   },
@@ -97,6 +102,7 @@ describe("ciclo de vida y compatibilidad del plugin", () => {
   beforeEach(() => {
     mock.notice.mockClear();
     mock.getLanguage.mockReturnValue('es');
+    mock.requireApiVersion.mockReturnValue(false);
     vi.spyOn(console, "warn").mockImplementation(() => undefined);
   });
   afterEach(() => vi.restoreAllMocks());
@@ -267,5 +273,32 @@ describe("ciclo de vida y compatibilidad del plugin", () => {
     expect(await env.manager.getFileSuggestions(runnable, "angel")).toBe(env.linkOriginals);
     expect(env.nativeApp.vault.getFiles).not.toHaveBeenCalled();
     expect(env.nativeApp.metadataCache.getLinkSuggestions).not.toHaveBeenCalled();
+  });
+
+  it("queda inactivo desde Obsidian 1.15 y avisa una vez de la función nativa", async () => {
+    mock.requireApiVersion.mockReturnValue(true);
+    const env = environment();
+    env.load();
+    await vi.waitFor(() => expect(env.plugin.saveData).toHaveBeenCalledWith({ nativeNoticeShown: true }));
+    expect(mock.requireApiVersion).toHaveBeenCalledWith("1.15.0");
+    expect(env.prototype.getSuggestions).toBe(env.nativeQuick);
+    expect(env.manager.getFileSuggestions).toBe(env.nativeLink);
+    expect(env.plugin.registerEvent).not.toHaveBeenCalled();
+    expect(env.plugin.getStatus()).toEqual({ quickSwitcher: false, wikilinks: false });
+    expect(mock.notice).toHaveBeenCalledTimes(1);
+    expect(mock.notice).toHaveBeenCalledWith(expect.stringContaining("Obsidian 1.15 ya ignora los acentos"), 0);
+    env.plugin.onunload();
+  });
+
+  it("no repite el aviso nativo si ya se mostró en ese vault", async () => {
+    mock.requireApiVersion.mockReturnValue(true);
+    const env = environment();
+    vi.mocked(env.plugin.loadData).mockResolvedValue({ nativeNoticeShown: true });
+    env.load();
+    await vi.waitFor(() => expect(env.plugin.loadData).toHaveBeenCalled());
+    await Promise.resolve();
+    expect(mock.notice).not.toHaveBeenCalled();
+    expect(env.plugin.saveData).not.toHaveBeenCalled();
+    env.plugin.onunload();
   });
 });

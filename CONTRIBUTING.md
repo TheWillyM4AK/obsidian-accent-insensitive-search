@@ -33,7 +33,7 @@ The fixture contains an expression that evaluates to an async function with two 
 3. Evaluate the fixture function with the running `app` and that baseline object. All checks must pass, with an empty `failures` array.
 4. Disable the plugin and verify that the original methods and their inheritance are restored, then enable it again and check that both adaptations are active without errors.
 
-Do not capture a baseline while the plugin's wrappers are active. Native integration is separate from `npm test` and requires Obsidian 1.14.4 or a newly verified compatible version. A passing desktop check does not establish mobile compatibility; report the device and Obsidian version when testing mobile.
+Do not capture a baseline while the plugin's wrappers are active. Native integration is separate from `npm test` and requires Obsidian 1.14.4 or a newly verified compatible 1.14.x version; on Obsidian 1.15 or later the plugin stays inactive by design. A passing desktop check does not establish mobile compatibility; report the device and Obsidian version when testing mobile.
 
 Contributions are distributed under the repository's [MIT license](LICENSE).
 
@@ -70,6 +70,6 @@ El archivo contiene una expresión que devuelve una función asíncrona con dos 
 3. Evalúa la función con el `app` de la instancia abierta y ese objeto de referencia. Todas las comprobaciones deben pasar y `failures` debe ser un array vacío.
 4. Desactiva el plugin y comprueba que se restauran los métodos originales y su herencia; vuelve a activarlo y comprueba que ambas adaptaciones funcionan sin errores.
 
-No captures las referencias mientras los wrappers del plugin estén activos. La integración nativa es independiente de `npm test` y requiere Obsidian 1.14.4 o una versión cuya compatibilidad se haya verificado de nuevo. Una prueba de escritorio correcta no acredita la compatibilidad móvil; al probar en móvil, indica el dispositivo y la versión de Obsidian.
+No captures las referencias mientras los wrappers del plugin estén activos. La integración nativa es independiente de `npm test` y requiere Obsidian 1.14.4 o una versión 1.14.x cuya compatibilidad se haya verificado de nuevo; en Obsidian 1.15 o posterior el plugin queda inactivo de forma intencionada. Una prueba de escritorio correcta no acredita la compatibilidad móvil; al probar en móvil, indica el dispositivo y la versión de Obsidian.
 
 Las contribuciones se distribuyen bajo la [licencia MIT](LICENSE) del repositorio.
