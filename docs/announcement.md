@@ -66,3 +66,19 @@ If you're on 1.15 or later, you can uninstall Accent Insensitive Search. Version
 One small difference: native search also treats `ñ` as `n`, so `ano` finds `Año`.
 
 Thanks to the Obsidian team for building this in, and to everyone who tried the plugin!
+
+## Retirement: Obsidian 1.15 public release
+
+Status: **published**. Published: 2026-11-09, after Obsidian 1.15.0 became the public release on 2026-11-02 and the catalog listing was archived. [Reply](https://forum.obsidian.md/t/accent-insensitive-search-ignore-accents-in-quick-switcher-and-links/119290/11).
+
+The announcement topic remains the only open place to update. The reply was published before archiving the GitHub repository so that this record could still be committed.
+
+### Published reply
+
+**Obsidian 1.15 is now public, so Accent Insensitive Search is retired.**
+
+Obsidian 1.15.0 reached the public release on November 2, 2026, and it ignores accents natively in link suggestions, Quick Switcher, Command palette, and Bases search. The plugin is no longer needed: if you still have it installed, you can uninstall it (version 0.2.0 stays inactive on 1.15 or later anyway).
+
+The community catalog listing is archived and the GitHub repository is being archived as read-only, so the code stays available for reference but there will be no further updates.
+
+Thanks again to everyone who tried the plugin, and to the Obsidian team for building this in.
