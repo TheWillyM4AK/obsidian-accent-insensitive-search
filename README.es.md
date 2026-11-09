@@ -3,7 +3,7 @@
 Español · [English](README.md)
 
 > [!IMPORTANT]
-> **Obsidian 1.15 ya lo hace de forma nativa.** Desde Obsidian 1.15.0 (acceso anticipado desde el 22 de octubre de 2026), las sugerencias de enlaces, el selector rápido, la paleta de comandos y la búsqueda de Bases ignoran las tildes sin necesidad de plugins ([notas de la versión](https://obsidian.md/changelog/2026-10-22-desktop-v1.15.0/)). Si usas la 1.15 o posterior, puedes desinstalar este plugin: desde la versión 0.2.0 queda inactivo en esas versiones y muestra un aviso una sola vez. Hasta que la 1.15 llegue a la versión pública, sigue siendo útil en Obsidian 1.14.x; después se retirará.
+> **Este plugin está retirado y ya no se mantiene.** Obsidian 1.15.0, versión pública desde el 2 de noviembre de 2026, ignora las tildes de forma nativa en las sugerencias de enlaces, el selector rápido, la paleta de comandos y la búsqueda de Bases ([notas de la versión](https://obsidian.md/changelog/2026-10-22-desktop-v1.15.0/)), así que el plugin ya no es necesario. Si todavía lo tienes instalado, desinstálalo: desde la versión 0.2.0 queda inactivo en Obsidian 1.15 o posterior y muestra un aviso una sola vez. La versión 0.2.0 es la última; no se publicarán más actualizaciones.
 >
 > Una diferencia: la búsqueda nativa también trata la `ñ` como `n`, así que `ano` encuentra `Año`.
 
@@ -35,6 +35,8 @@ Al seleccionar el primer ejemplo después de escribir `[[alvaro gomez`, Obsidian
 El plugin amplía la búsqueda de archivos y aliases en esas dos interfaces. No añade búsqueda sin tildes a la búsqueda global, a buscadores de otros plugins, al texto de encabezados o bloques ni a los nombres de enlaces pendientes.
 
 ## Instalación
+
+El plugin está retirado. Estas instrucciones se conservan como referencia y solo tienen sentido en Obsidian 1.14.x.
 
 ### Catálogo de la comunidad
 
@@ -84,7 +86,7 @@ Consulta [CONTRIBUTING.md](CONTRIBUTING.md) para el procedimiento de integració
 
 ## Comentarios y colaboración
 
-[Abre una incidencia](https://github.com/TheWillyM4AK/obsidian-accent-insensitive-search/issues) en español o inglés. Incluye las versiones de Obsidian y del plugin, la plataforma y un ejemplo mínimo con nombres de notas ficticios. Son bienvenidas las propuestas y los informes reproducibles de otros idiomas.
+El plugin está retirado y ya no se mantiene, así que no se esperan nuevos informes. El repositorio sigue disponible como referencia. Gracias a quienes lo probaron y enviaron comentarios.
 
 ## Licencia
 

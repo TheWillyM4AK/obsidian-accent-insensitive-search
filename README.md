@@ -3,7 +3,7 @@
 [Español](README.es.md) · English
 
 > [!IMPORTANT]
-> **Obsidian 1.15 does this natively.** Since Obsidian 1.15.0 (early access since October 22, 2026), link suggestions, Quick switcher, Command palette, and Bases search ignore accents without any plugin ([release notes](https://obsidian.md/changelog/2026-10-22-desktop-v1.15.0/)). If you use 1.15 or later, you can uninstall this plugin: from version 0.2.0 it stays inactive on those versions and shows a one-time notice. Until 1.15 reaches the public release, the plugin remains useful on Obsidian 1.14.x; after that, it will be retired.
+> **This plugin is retired and no longer maintained.** Obsidian 1.15.0, the public release since November 2, 2026, ignores accents natively in link suggestions, Quick switcher, Command palette, and Bases search ([release notes](https://obsidian.md/changelog/2026-10-22-desktop-v1.15.0/)), so the plugin is no longer needed. If you still have it installed, uninstall it: from version 0.2.0 it stays inactive on Obsidian 1.15 or later and shows a one-time notice. Version 0.2.0 is the last release; no further updates will be published.
 >
 > One difference: native search also treats `ñ` as `n`, so `ano` finds `Año`.
 
@@ -35,6 +35,8 @@ Select the first example after typing `[[alvaro gomez` and Obsidian inserts `[[�
 This plugin extends file and alias matching in those two interfaces. It does not add accent-insensitive matching to global Search, third-party search plugins, heading or block text, or unresolved link names.
 
 ## Installation
+
+The plugin is retired. These instructions are kept for reference and only make sense on Obsidian 1.14.x.
 
 ### Community catalog
 
@@ -84,7 +86,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the native integration procedure and 
 
 ## Feedback
 
-[Open an issue](https://github.com/TheWillyM4AK/obsidian-accent-insensitive-search/issues) in English or Spanish. Include your Obsidian and plugin versions, platform, and a minimal example with fictional note names. Suggestions and reproducible reports from other languages are welcome.
+The plugin is retired and no longer maintained, so new reports are not expected. The repository remains available for reference. Thanks to everyone who tried it and sent feedback.
 
 ## License
 

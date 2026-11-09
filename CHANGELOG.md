@@ -1,5 +1,15 @@
 # Changelog / Historial de cambios
 
+## Retired / Retirado — 2026-11-09
+
+### English
+
+- Obsidian 1.15.0 became the public release on November 2, 2026, so accent-insensitive search is now native for everyone. The plugin is retired and no longer maintained: no further versions will be published. Version 0.2.0 remains the last release and stays inactive on Obsidian 1.15 or later.
+
+### Español
+
+- Obsidian 1.15.0 pasó a ser la versión pública el 2 de noviembre de 2026, así que la búsqueda sin tildes ya es nativa para todo el mundo. El plugin queda retirado y deja de mantenerse: no se publicarán más versiones. La versión 0.2.0 es la última y permanece inactiva en Obsidian 1.15 o posterior.
+
 ## 0.2.0 — 2026-10-24
 
 ### English
